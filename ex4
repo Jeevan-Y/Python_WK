@@ -1,0 +1,22 @@
+class person:
+    college='MRIT'
+    branch='CSE'
+    def __init__(obj,n,a,e,p):
+        obj.Name=n.upper()                 
+        obj.Age=a
+        obj.Email=e.upper()
+        obj.Phone=p
+    @classmethod
+    def modify(ob,newval):
+        ob.college=newval
+
+    @classmethod
+    def modemail(res,newval):
+        res.email=newval
+        
+person.modify('Mysore')
+print(person.college)
+person.modemail('Mandya')
+print(person.email)
+        
+        
