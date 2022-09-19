@@ -1,0 +1,10 @@
+class person:
+    surname='MRIT'
+    def __init__(obj,n,a,e,p):
+        obj.Name=n.upper()                
+        obj.Age=a
+        obj.Email=e.upper()
+        obj.Phone=p
+p1=person('Gopii',25,'gopi@gmail.com',9875647231)
+print(p1.__dict__)
+print(p1.surname)
