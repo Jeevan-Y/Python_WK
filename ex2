@@ -1,0 +1,11 @@
+class person:
+    def create(obj,n,a,e,p):     #Attributes values are stored in class
+        obj.Name=n
+        obj.Age=a
+        obj.Email=e
+        obj.Phone=p
+
+p1=person()
+person.create(p1,'sai',30,'sai@gmail',864673911)
+print(p1.__dict__)
+    
