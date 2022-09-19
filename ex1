@@ -1,0 +1,12 @@
+class employee:
+    com_name='Infosis'
+    branch='Designing'
+    def __init__(obj,n,idd,sal):
+        obj.Name=n
+        obj.Id=idd
+        obj.Salary=sal
+
+p1=employee('Vivek',12,2311)
+print(employee.com_name)
+print(employee.branch)
+print(p1.Name)
